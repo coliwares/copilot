@@ -1,0 +1,51 @@
+explicar uso de copilot y posible deshabilitacion
+como me comunico chat lateral, chat inline, con comentarios en el codigo
+    // genera un endpoint que responde con un mensaje de texto segun lo que se le
+    // solicite
+
+    // modificar el mensaje de respuesta cambiando los caracteres de name en
+    // mayuscula a minuscula y viceversa
+
+
+hacer primer test 
+	@workspace /tests #selection
+
+
+pruebas de controller
+
+	con inline chat
+	/tests Generate test for endpoint checkBalance
+
+	en el codigo 
+	// Add tests for methods transfer, withdraw, and deposit
+
+pruebas de modelo
+
+	en el chat lateral 
+	@workspace /tests
+
+pruebas de utilitario
+
+	en el codigo 
+	//genera el test para validar cuenta nula
+	//Genera el test para validar saldo suficiente 
+	//genera el test para validar saldo insuficiente
+
+
+pruebas de servicio
+
+	en el chat lateral
+	@workspace /tests generate test for response OK
+
+	en el codigo
+	//generate test for checkbalance exception when account not found with assertThows
+
+
+refactorizacion de test
+
+	en el chat inline
+	/test
+
+	en el chat lateral 
+	@workspace /tests usando buenas prácticas de testing unitario como por ejemplo @Before para la inicialización de variables de setup
+	

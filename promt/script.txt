@@ -1,0 +1,61 @@
+PROPORCINAR SUFICIENTE CLARIDAD
+
+Escribe una función en typescript que permita saber Cuál es el último día del mes a partir de una fecha de entrada con el siguiente formato YYYY-MM-DD
+
+PROPORCINAR SUFICIENTE CONTEXTO DETALLE
+
+//componente que muestra una lista de productos
+//neceista un servicio para obtener los productos
+//y permitir la busqueda y filtrado de productos
+//mediante un formulario
+
+PROPORCINAR EJEMPLOS PARA EL APRENDIZAJE
+
+// funcion de utilidad para formatear una fecha
+// un unformato legible
+// ejemplo: 2021-08-01T00:00:00.000Z -> 01/08/2021
+
+ASERCION E ITERACION
+
+escribe una funcion para formatear fechas
+agrega un formato de salida como el siguinete "aaaa-mm-dd"
+la funcion recibe una fecha en formato dd-MM-yyyy y devuleve en formato yyyy-MM-dd
+
+
+ZERO SHOT LEARNING
+
+// escribe una funcion en typescript que calcule el area de un circulo
+
+ONE SHOT LEARNING
+
+//escribe una funcion que calcule el perimetro de un circulo
+
+FEW SHOTS LEARNING
+
+//ejemplo 1: un saludo veraniego
+//input: fecha 15-02
+//output: "Feliz verano"
+
+//ejemplo 2: un saludo de invierno
+//input: fecha 15-08
+//output: "Feliz invierno"
+
+//ejemplo 3: un saludo de otoño
+//input: fecha 15-05
+//output: "Feliz otoño"
+
+//ejemplo 4: un saludo de primavera
+//input: fecha 15-11
+//output: "Feliz primavera"
+
+//genera una codigo en typescript que reciba la fecha actual y devuelva el saludo correspondiente segun los ejemplos anteriores
+
+
+04 GENERACION DE CODIGO
+
+//escribe una funcion que calcule la hipotenusa de un triangulo, dame mas de una sugerencia para resolver el problema
+
+
+
+
+

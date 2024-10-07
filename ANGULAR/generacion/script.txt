@@ -1,0 +1,110 @@
+REACION DE PROYECTO
+
+como veo la version de angular instalada
+
+@terminal /explain #terminalSelection 
+
+explicame como funciona el comando ng
+
+explicame que opciones puedo usar con  ng new my-angular17-app 
+
+como genero un proyecto en angular 17 usando angular CLI
+
+como genero un proyecto no standalone en angular 17 usando angular CLI
+
+seguir los pasos 
+
+CREACION DE PROYECTO APISERVER
+
+como genero una api dummy con json-server
+
+genera un archivo db.json de customers con la estructura idCliente, name, mail, phone, address
+
+seguir los pasos
+
+CREACION DE UN SERVICIO
+
+PROMT: genera un servicio de nombre customer bajo services con angular cli
+seguir los pasos 
+
+
+CREACION DE UN MODELO CON UN EJEMPLO
+
+PROMT: genera un modelo de datos con angular CLI de nombre customer en angular para la siguiente estructura de datos de ejemplo {
+"idCliente": "876543215", "name": "David Brown", "mail": "David@mail.com", "phone": "7234567890", "address": "123 Main St" }
+
+seguir los pasos 
+
+
+CONSUMIR UNA API 
+
+PROMT: genera el codigo dentro de #file para consumir la api http://localhost:3000/customers/usando el modelo #file
+
+seguir los pasos 
+
+
+CREAR UN COMPONENTE
+
+PROMT: genera el componente customer-home bajo el framework angular
+
+seguir los pasos
+
+INCORPORAR AL ROUTING
+
+PROMT: genera el routing de #file:customer-home.component.ts
+seguir los pasos 
+
+EN EL CHAT INLINE: genera el codigo para incorporar el componente customer-home al path: ''
+
+MEDIANTE COMENTARIOS: //genera el codigo para incorporar el componente customer-home al path: ''
+
+limpiar la pagina por defecto app.component.html
+
+CONSUMO DE SERVICIO DESDE EL COMPONENTE
+
+MEDIANTE COMENTARIOS: //al iniciar el componente se ejecuta el constructor usando ngoninit y obtiene los datos del servicio
+//getCustomers del archivo services/customer.service.ts almacenandolos en la variable customers
+//para luego ser mostrados en la vista
+
+Ajustar el resultado y verificar error de pagina
+
+COPIAR EL ERROR AL CHAR PARA explicacion
+
+explicame el siguiente error NullInjectorError: NullInjectorError: No provider for _HttpClient!
+    at NullInjector.get (core.mjs:1654:27)
+    at R3Injector.get (core.mjs:3093:33)
+    at R3Injector.get (core.mjs:3093:33)
+    at injectInjectorOnly (core.mjs:1100:40)
+    at Module.ɵɵinject (core.mjs:1106:42)
+    at Object.CustomerService_Factory [as factory] (customer.service.ts:9:29)
+    at core.mjs:3219:47
+    at runInInjectorProfilerContext (core.mjs:866:9)
+    at R3Injector.hydrate (core.mjs:3218:21)
+    at R3Injector.get (core.mjs:3082:33)
+
+seguir los pasos
+
+GENERACION DE CODIGO HTML
+
+EN EL CHAT INLINE: muestra un listado de customers
+
+probar
+
+EN EL CHAT INLINE: muestra un listado de los elementos de customer (idCliente y Nombre) en una tabla dinamica
+
+probar
+
+EN EL CHAT INLINE: muestra un listado de los elementos de customer (idCliente y Nombre) en una tabla dinamica, que al seleccionar un registro se expanda y muestre los otros elementos de customer (mail, phone, address)
+
+probar
+
+EN EL CHAT: @workspace /fix  #selection  soluciona usando #file:customer.service.ts y #file:customer.model.ts 
+
+seguir los pasos
+
+EN EL CHAT: @workspace #file:customer-home.component.html Crea un archivo CSS para el componente de Angular que le dé un estilo bancario de Santander a la visualización de la información del cliente. Usa la paleta de colores del banco Santander. El diseño debe ser limpio y profesional. 
+marcando la cabecera, y las filas con colores vibrantes 
+
+probar
+
+SI SALE ERROR: no uses root

@@ -1,0 +1,71 @@
+explicar uso de copilot y posible deshabilitacion
+
+como me comunico chat lateral, chat inline, con comentarios en el codigo
+
+en el chat lateral solicitar 
+	como genero un reporte de cobertura con junit
+
+en el chat inline  solicitar 
+	/tests
+
+en el codigo escribir el comentario 
+    // modificar el mensaje de respuesta cambiando los caracteres de name en
+    // mayuscula a minuscula y viceversa
+
+indicar que dependiendo del resultado es como nos podemos comunicar 
+
+usamos chat inline y solicitamos 
+
+	modificar el mensaje de respuesta cambiando los caracteres de name en mayuscula a minuscula y viceversa
+
+la prueba falla y podemos solicitar a copilot que corrija el test en el chat inline o en el chat lateral dentro del controlador
+	
+	/test o @workspace /tests #selection
+
+
+
+pruebas de controladores en el TransactionController
+
+
+en el chat inline solictamos 
+	/tests Generate test for endpoint checkBalance simulate service
+
+en el codigo 
+	// Add tests for methods transfer, withdraw, and deposit
+
+corregimos el tets para que copilot aprenda
+
+continuamos con los otros test
+
+
+
+pruebas de mnodelos y utilitarios
+
+	en el chat lateral 
+	@workspace /tests
+
+	con el menu contextual en account test copilot > test this
+
+
+pruebas en servicios
+	en el chat lateral
+	@workspace /tests genera test para el happy path de los metodos considerando simulacion de respuestas de la clase repository #file
+
+	en el codigo 
+	
+	// test for source account not found throws exception with assertThrows verify in transfer
+	
+	// test for target account not found throws exception with assertThrows verify in transfer
+	
+	// test for source account not found throws exception with assertThrows verify in withdraw
+
+	// test for insufficient balance throws exception with assertThrows verify in withdraw
+	
+	// test for source account not found throws exception with assertThrows verify in deposit
+
+	// test for source account not found throws exception with assertThrows verify in checkBalance
+
+
+
+
+
